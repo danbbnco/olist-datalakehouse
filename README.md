@@ -94,8 +94,9 @@ Organizados dentro da pasta `src/` por camada:
 ```
 src/
 ├── bronze/
-│   └── 01_ingest_orders.py
-│   └── ...
+│   └── ingestao_comercial.ipynb
+│   └── ingestao_clientes.ipynb
+│   └── ingestao_produtos.ipynb
 ├── silver/
 │   └── (em breve)
 ├── gold/
@@ -107,7 +108,6 @@ src/
 ## 📌 Observações
 
 - A ingestão incremental via CDC será adicionada posteriormente.
-- O projeto não utiliza volumes como destino físico nas camadas bronze/silver/gold devido à limitação do Unity Catalog.
 
 ---
 
